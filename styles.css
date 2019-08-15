@@ -1,0 +1,96 @@
+.profileImage{
+    isplay: block;
+    margin-left: auto;
+    margin-right: 2em;
+    border-radius: 50%;
+    width:30%;
+    border:4px solid #C7EF00;
+}
+
+.backgroundView{
+    background-color: black;
+}
+div{
+  color: black;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  text-align: center;
+  
+  
+}
+.container{
+  font-size: 40pt;
+}
+
+#goDown{
+    margin-top: 200px;
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 10%;
+    height: 75.17px;
+    background-color:black;
+    border: 0px; 
+    background: url(/arrow.png) no-repeat;
+}
+
+#textMain{
+  text-align: left;
+  background-color: #C7EF00;
+  color: black;
+  font-size: 30pt;
+  margin-top: 30%;
+  /* margin-bottom: 40%; */
+}
+
+#skills{
+  text-align: left;
+  background-color: #FFBF00;
+  color: black;
+  font-size: 30pt;
+  margin-top: 25%;
+}
+
+table{
+  margin-top: 3em;
+}
+#projects{
+  text-align: left;
+  background-color: #15f4ee;
+  color: black;
+  font-size: 30pt;
+  margin-top: 25%;
+}
+#mainDiv{
+  margin-left:4em;
+  color:#C7EF00;
+}
+li{
+  margin-left: 3%
+}
+#education{
+  background-color: #FF5964;
+  color:black;
+  text-align: left;
+  font-size: 30pt;
+  margin-top: 25%;
+  margin-bottom: 10%
+}
+img{
+  display: block;
+  border-radius: 5%;
+  /* border:4px solid #C7EF00; */
+}
+#top{
+  margin-top: 0%;
+  width: auto;
+  height: 1px;
+}
+#goUp{
+  margin-top: 200px;
+  margin-left: 45%;
+  margin-right: 45%;
+  width: 10%;
+  height: 75.17px;
+  background-color:black;
+  border: 0px; 
+  background: url(/arrow2.png) no-repeat;
+}
