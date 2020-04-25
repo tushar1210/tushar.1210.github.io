@@ -97,9 +97,11 @@ body.border-dark .menu-btn > .lines > span{
 	overflow:hidden;
 }
 .menu:hover,
-.menu-btn:hover + .menu{
+.menu-btn:hover + .menu,.menu-btn:active{
 	width:300px;
 }
+
+
 .menu > .inner{
 	height:100%;
 	width:300px;
