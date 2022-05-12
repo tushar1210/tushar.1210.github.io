@@ -7,7 +7,6 @@ function showImgContent(e) {
     linkText.style.setProperty('--x',(x)+'px');
     linkText.style.setProperty('--y',(y)+'px');
 }
-
 document.addEventListener('mousemove', showImgContent);
 
 function touchHandle(e){
