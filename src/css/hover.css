@@ -35,9 +35,17 @@ a {
   color: #bada65;
   text-transform: uppercase;
   transition: color 275ms ease;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .link:hover {
   color: #333;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .link:hover ~ .hover-container .link-text {
   opacity: 1;
