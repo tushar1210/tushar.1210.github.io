@@ -16,36 +16,44 @@ $(document).ready(function(){
 
 function onClickYes() {
     console.log("yes");
-    // window.location.href ='yes.html'
+    var green = document.getElementById("green")
+    var red = document.getElementById("red")
+    red.textContent = "Yes! (but in red)  "
     var y = document.getElementById("no")
     y.style.display = "none";
     var x = document.getElementById("yes")
     if (x.style.display === "none") {
         x.style.display = "block";
+        green.textContent = "Close X"
     } else {
         x.style.display = "none";
+        green.textContent = "Yes! Yes! Yes! Yes!"
     }
-    setTimeout(()=>{
-        fadeOutEffect(x)
-    }, 5000)
+    // setTimeout(()=>{
+    //     fadeOutEffect(x)
+    // }, 5000)
 }
 
 
 function onClickNo() {
-    // console.log("no");
-    // window.location.href ='no.html'
+    console.log("no");
+    var red = document.getElementById("red")
+    var green = document.getElementById("green")
+    green.textContent = "Yes! Yes! Yes! Yes!"
     var y = document.getElementById("yes")
     y.style.display = "none";
     var x = document.getElementById("no")
     if (x.style.display === "none") {
         x.style.display = "block";
+        red.textContent = "Close X"
     } else {
         x.style.display = "none";
+        red.textContent = "Yes! (but in red)  "
     }
 
-    setTimeout(()=>{
-        fadeOutEffect(x)
-    }, 5000)
+    // setTimeout(()=>{
+    //     fadeOutEffect(x)
+    // }, 5000)
 }
 
 function fadeOutEffect(fadeTarget) {
@@ -58,5 +66,6 @@ function fadeOutEffect(fadeTarget) {
         } else {
             clearInterval(fadeEffect);
         }
+        fadeTarget.style.display = "none";
     }, 200);
 }
