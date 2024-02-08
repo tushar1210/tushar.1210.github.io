@@ -11,7 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://tushar1210.github.io/tushar1210.github.io",
+  "homepage": "https://tushar1210.github.io/website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
