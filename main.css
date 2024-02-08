@@ -13,10 +13,11 @@ body{
   left:0;
   right:0;
   bottom:0;
+
 }
 .container{
   position: relative;
-  margin: 120px auto 0 auto;
+  margin: 40px auto 0 auto;
   width: 320px;
 }
 
@@ -157,62 +158,62 @@ body{
 }
 
 @keyframes show {
-    from {
-      opacity: 0;
-      top: -100px;
-    }
-    to {
-      opacity: 1;
-      top:0;
-    }
+  from {
+    opacity: 0;
+    top: -100px;
+  }
+  to {
+    opacity: 1;
+    top:0;
+  }
 }
 
 
 
 .button-view-port {
-    display: flex;
-    align-items:center;
-    justify-content:space-evenly;   
+  display: flex;
+  align-items:center;
+  justify-content:space-evenly;   
 }
 
 /* CSS */
 .button-82-pushable {
-    position: relative;
-    border: none;
-    background: transparent;
-    padding: 0;
-    cursor: pointer;
-    outline-offset: 4px;
-    transition: filter 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 .button-82-shadow {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-border-radius: 12px;
-background: hsl(0deg 0% 0% / 0.25);
-will-change: transform;
-transform: translateY(2px);
-transition:
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
     transform
     600ms
     cubic-bezier(.3, .7, .4, 1);
 }
 
 .button-82-edge {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-border-radius: 12px;
-background: linear-gradient(
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
     to left,
     hsl(340deg 100% 16%) 0%,
     hsl(340deg 100% 32%) 8%,
@@ -222,50 +223,50 @@ background: linear-gradient(
 }
 
 .button-82-front {
-display: block;
-position: relative;
-padding: 12px 27px;
-border-radius: 12px;
-font-size: 1.1rem;
-color: white;
-background: hsl(345deg 100% 47%);
-will-change: transform;
-transform: translateY(-4px);
-font-family: "Gill Sans", sans-serif;;
-transition:
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  font-family: "Gill Sans", sans-serif;;
+  transition:
     transform
     600ms
     cubic-bezier(.3, .7, .4, 1);
 }
 
 @media (min-width: 768px) {
-.button-82-front {
+  .button-82-front {
     font-size: 1.25rem;
     padding: 12px 42px;
-}
+  }
 }
 
 .button-82-pushable:hover {
-filter: brightness(110%);
--webkit-filter: brightness(110%);
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
 }
 
 .button-82-pushable:hover .button-82-front {
-transform: translateY(-6px);
-transition:
+  transform: translateY(-6px);
+  transition:
     transform
     250ms
     cubic-bezier(.3, .7, .4, 1.5);
 }
 
 .button-82-pushable:active .button-82-front {
-transform: translateY(-2px);
-transition: transform 34ms;
+  transform: translateY(-2px);
+  transition: transform 34ms;
 }
 
 .button-82-pushable:hover .button-82-shadow {
-transform: translateY(4px);
-transition:
+  transform: translateY(4px);
+  transition:
     transform
     250ms
     cubic-bezier(.3, .7, .4, 1.5);
@@ -280,3 +281,136 @@ transition: transform 34ms;
 outline: none;
 }
 
+
+
+
+
+
+
+
+.button-81-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-81-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(122, 100%, 16%) 0%,
+    hsl(97, 100%, 32%) 8%,
+    hsl(97, 100%, 32%) 92%,
+    hsl(122, 100%, 16%) 100%
+);
+}
+
+.button-81-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(91, 100%, 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  font-family: "Gill Sans", sans-serif;;
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-81-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-81-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-81-pushable:hover .button-81-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-81-pushable:active .button-81-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-81-pushable:hover .button-81-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-81-pushable:active .button-81-shadow {
+transform: translateY(1px);
+transition: transform 34ms;
+}
+
+.button-81-pushable:focus:not(:focus-visible) {
+outline: none;
+}
+
+
+.answer--yes {
+	background-image: url('https://media.giphy.com/media/a3IWyhkEC0p32/giphy.gif');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.answer--no {
+	background-image: url('https://media.giphy.com/media/QBEhpJHrv7poQ/giphy.gif');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+input.yes[type=checkbox]:checked ~ .answer--yes {
+  visibility: visible;
+	opacity: 100;
+}
+
+input.no[type=checkbox]:checked ~ .answer--no {
+  visibility: visible;
+	opacity: 100;
+}
