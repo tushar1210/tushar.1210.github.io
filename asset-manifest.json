@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tushar1210.github.io/static/css/main.a957751d.css",
-    "main.js": "/tushar1210.github.io/static/js/main.0f9380bf.js",
-    "static/js/592.79728ef5.chunk.js": "/tushar1210.github.io/static/js/592.79728ef5.chunk.js",
-    "index.html": "/tushar1210.github.io/index.html",
-    "static/media/red-heart-icon.svg": "/tushar1210.github.io/static/media/red-heart-icon.db5f2c5f77bae45dfa1986fa8b9fc6c7.svg",
-    "main.a957751d.css.map": "/tushar1210.github.io/static/css/main.a957751d.css.map",
-    "main.0f9380bf.js.map": "/tushar1210.github.io/static/js/main.0f9380bf.js.map",
-    "592.79728ef5.chunk.js.map": "/tushar1210.github.io/static/js/592.79728ef5.chunk.js.map"
+    "main.css": "/website/static/css/main.48d59d7c.css",
+    "main.js": "/website/static/js/main.99583849.js",
+    "static/js/592.79728ef5.chunk.js": "/website/static/js/592.79728ef5.chunk.js",
+    "index.html": "/website/index.html",
+    "static/media/red-heart-icon.svg": "/website/static/media/red-heart-icon.db5f2c5f77bae45dfa1986fa8b9fc6c7.svg",
+    "main.48d59d7c.css.map": "/website/static/css/main.48d59d7c.css.map",
+    "main.99583849.js.map": "/website/static/js/main.99583849.js.map",
+    "592.79728ef5.chunk.js.map": "/website/static/js/592.79728ef5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a957751d.css",
-    "static/js/main.0f9380bf.js"
+    "static/css/main.48d59d7c.css",
+    "static/js/main.99583849.js"
   ]
 }
